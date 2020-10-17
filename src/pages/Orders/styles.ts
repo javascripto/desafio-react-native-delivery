@@ -1,12 +1,12 @@
 import styled from 'styled-components/native';
 import { FlatList } from 'react-native';
 
-interface Product {
+export interface Product {
   id: number;
   name: string;
   description: string;
   price: number;
-  formattedValue: number;
+  formattedPrice: string;
   thumbnail_url: string;
 }
 
